@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Potfolio Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="header">
+        <div class="icon"><a href="#"><img id="image1" src="deno twitter.jpg" width="80px" style="aspect-ratio:1/1;" alt="Dennio bersen" onmouseover="document.getElementById('image1').src='Barasa.png.jpg ' " onmouseout="document.getElementById('image1').src='deno twitter.jpg' "/></a></div>
+        <div class="title"><h1>D Ξ N N I O</h1></div>
+    </div>
+    <hr/>
+    <div class="content">
+        <div class="text">
+            <h2>Hi i'm Dennio, <br/><span class="second_line">The Web Developer <br/></span><span class="third_line">you were looking for. </span></h2>
+            <img src="Barasa.png.jpg" alt="an image of dennio"/>
+            <button type="button" onclick="myFunction()">More...</button>
+        </div><br/>
+        <div class="more_text">
+            <p class="" id="text"></p>
+        </div><br/>
+        <button type="button" onclick="myLess()">Less...</button>
+    </div>
+    <hr/>
+    <div class="footer">
+        <div class="socials">
+            <a class="fa-brands fa-x-twitter" href="https://x.com/BersenDennio?t=g9jexw-SeDrgcfka_i67Xw8s=09"></a>
+            <a class="fa-brands fa-facebook" href="https://www.facebook.com/dennio.bersen"></a>
+            <a class="fa-brands fa-instagram" href="https://instagram.com/denniobersen?igshid=OGY3MTU3OGY1Mw=="></a>
+            <a class="fa-brands fa-whatsapp" href="https://wa.me/+254739769713"></a>
+            <a class="fa-brands fa-github" href="https://dennisbarasa.github.io/DennisBarasa-/index.html"></a>
+        </div>
+        <div class="contacts">
+            <h5><a class="fa-solid fa-phone" href="Tel:+254719852672">  +254719852672</a></h5>
+            <h5><a class="fa-solid fa-phone" href="Tel:+254739769713">  +254739769713</a></h5>
+            <h5><a class="fa-solid fa-envelope" href="mailto:barasadennissimiyu@gmail.com">  barasadennissimiyu@gmail.com</a></h5>
+        </div>
+    </div>
+    <hr/>
+    <div class="copy">&copy;2023Dennio</div>
+    <hr/>
+    <script>
+        function myFunction(){
+
+        document.getElementById("text").innerHTML='Dennis Barasa alias Dennio is a kenyan Nairobi based Software Engineering student, who is also a Business Management graduate from Marist International University College. He began his software engineering journey officially on July 2023, with an aim of helping small and big local businesses and business people around him put their foot on global business arena, and so far he is progressing healthfully.If you are in need of custom email and website templates, check him through the contact links below. ';
+          }
+       function myLess(){
+        document.getElementById("text").innerHTML=" ";
+       }   
+    </script>
+</body>
+</html>

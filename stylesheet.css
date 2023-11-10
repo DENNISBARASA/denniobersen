@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#e6e5e5c0;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.icon img{
+    border-radius: 50%;
+}
+.text{
+    text-align: center; 
+    text-shadow: 2px 6px rgba(0,0,0,0.2);                
+}
+.text img{
+    border-radius: 10px;
+}
+h2{
+    font-size: 80px;
+    color: #62acce;
+}
+h2 .second_line{
+    font-size: 40px;
+    color: #b07e1f;
+}
+h2 .third_line{
+    font-size: 70px;
+    color:#a04628;
+}
+button{
+    text-align: center;
+}
+.more_text{
+   background-color: #dedddd; 
+   padding: 5px;
+   border-radius: 10px;
+}
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #b07e1f;
+    font-size: 20px;
+    padding: 5px;
+}
+.socials .fa-x-twitter{
+    color: black;
+}
+.socials .fa-facebook{
+    color:blue;
+}
+.socials .fa-instagram{
+    color:red;
+}
+.socials .fa-whatsapp{
+    color:green;
+}
+.contacts a{
+  text-decoration: none;
+  color: #a04628;
+}
+.copy{
+    text-align: center;
+}
+@media(max-width:600px) {
+    .header, .socials{
+        flex-direction:column;
+    }
+}
